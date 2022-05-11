@@ -3,7 +3,7 @@ import React from 'react'
 import photo from '../../assets/small/commercial/0.jpg';
 
 
-function PhotoList() {
+export function PhotoList() {
     return (
         <div>
             <img
@@ -14,4 +14,3 @@ function PhotoList() {
     )
 }
 
-export default PhotoList;
